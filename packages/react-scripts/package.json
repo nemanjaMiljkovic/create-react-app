@@ -1,5 +1,5 @@
 {
-  "name": "badinsoft-scripts",
+  "name": "badin-react",
   "version": "1.0.1",
   "description": "Configuration and scripts for Badin Apps.",
   "repository": {
@@ -33,6 +33,7 @@
     "@types/react": "^16.8.15",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
+    "@types/styled-components": "^4.1.14",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.0.1",
@@ -82,7 +83,14 @@
     "webpack": "4.29.6",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "4.2.0"
+    "workbox-webpack-plugin": "4.2.0",
+    "styled-components": "^4.2.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "jest-styled-components": "^6.3.1",
+    "jest-dom": "^3.2.2",
+    "react-testing-library": "^7.0.0",
+    "husky": "^2.2.0",
+    "prettier": "^1.17.0"
   },
   "devDependencies": {
     "react": "^16.8.4",

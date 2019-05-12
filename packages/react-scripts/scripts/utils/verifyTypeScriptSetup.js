@@ -255,7 +255,7 @@ function verifyTypeScriptSetup() {
   if (!fs.existsSync(paths.appTypeDeclarations)) {
     fs.writeFileSync(
       paths.appTypeDeclarations,
-      `/// <reference types="badinsoft-scripts" />${os.EOL}`
+      `/// <reference types="badin-scripts" />${os.EOL}`
     );
   }
 }

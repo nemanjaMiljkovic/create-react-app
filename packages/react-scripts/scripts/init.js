@@ -99,11 +99,20 @@ module.exports = function(
     build: 'react-scripts build',
     test: 'react-scripts test',
     eject: 'react-scripts eject',
+    lint: 'eslint src/**',
+    format: 'prettier src/**',
   };
 
   // Setup the eslint config
-  appPackage.eslintConfig = {
-    extends: 'react-app',
+  // appPackage.eslintConfig = {
+  //   extends: 'react-app',
+  // };
+
+  //Husky
+  appPackage.husky = {
+    hooks: {
+      'pre-push': 'eslint && npm test',
+    },
   };
 
   // Setup the browsers list
