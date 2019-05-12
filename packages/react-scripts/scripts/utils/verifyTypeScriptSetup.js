@@ -181,7 +181,7 @@ function verifyTypeScriptSetup() {
         )
       );
     }
-    
+
     console.log(e && e.message ? `${e.message}` : '');
     process.exit(1);
   }
@@ -255,7 +255,7 @@ function verifyTypeScriptSetup() {
   if (!fs.existsSync(paths.appTypeDeclarations)) {
     fs.writeFileSync(
       paths.appTypeDeclarations,
-      `/// <reference types="react-scripts" />${os.EOL}`
+      `/// <reference types="badinsoft-scripts" />${os.EOL}`
     );
   }
 }
